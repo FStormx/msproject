@@ -1,0 +1,203 @@
+.password-auth-verified-container {
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+    background-image: url('https://acctcdn.msftauth.net/images/2_vD0yppaJX3jBnfbHF1hqXQ2.svg');
+}
+
+.password-auth-verified-mobile {
+    flex: 0 0 auto;
+    width: 200px;
+    border: 2px dashed rgba(120, 120, 120, 0.4);
+    height: 100px;
+    display: none;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.password-auth-verified-form {
+    width: calc(100% - 40px);
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.password-auth-verified-login {
+    width: 100%;
+    padding: 44px;
+    position: relative;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    min-height: 338px;
+    background-color: #ffffff;
+}
+
+.password-auth-verified-loader {
+    top: 0px;
+    flex: 0 0 auto;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+}
+
+.password-auth-verified-login-form {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.password-auth-verified-logo {
+    height: 24px;
+    max-width: 256px;
+}
+
+.password-auth-verified-email {
+    font-style: normal;
+    margin-top: 16px;
+    font-weight: 500;
+}
+
+.password-auth-verified-text {
+    fill: #1b1b1b;
+    color: rgb(27, 27, 27);
+    font-size: 1.5rem;
+    font-style: normal;
+    margin-top: 16px;
+    font-weight: 600;
+    line-height: 1.75;
+    margin-bottom: 12px;
+}
+
+.password-auth-verified-content {
+    fill: rgb(27, 27, 27);
+    color: rgb(27, 27, 27);
+}
+
+.password-auth-verified-buttons {
+    gap: 6px;
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.password-auth-verified-button {
+    fill: #fff;
+    color: rgb(255, 255, 255);
+    touch: manipulation;
+    width: 100%;
+    cursor: pointer;
+    font-size: 14px;
+    max-width: 108px;
+    min-width: 32px;
+    line-height: normal;
+    padding-top: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-overflow: ellipsis;
+    text-align: center;
+    padding-bottom: 8px;
+    background-color: rgb(0, 103, 184);
+}
+
+.password-auth-verified-links {
+    gap: 20px;
+    flex: 0 0 auto;
+    left: 0px;
+    width: 100%;
+    bottom: 0px;
+    height: auto;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    padding-right: 6px;
+    padding-bottom: 3px;
+    justify-content: flex-end;
+}
+
+.password-auth-verified-terms-link {
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.password-auth-verified-terms-link:hover {
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
+    border-bottom-width: 1px;
+}
+
+.password-auth-verified-privacy-link {
+    font-size: 14px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.password-auth-verified-privacy-link:hover {
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
+    border-bottom-width: 1px;
+}
+
+@media(max-width: 479px) {
+    .password-auth-verified-container {
+        justify-content: flex-start;
+    }
+
+    .password-auth-verified-mobile {
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        bottom: 0px;
+        height: 100vh;
+        margin: auto;
+        display: flex;
+        position: absolute;
+        background-color: #fff;
+    }
+
+    .password-auth-verified-form {
+        width: 100%;
+        max-width: 100%;
+        align-self: flex-start;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .password-auth-verified-login {
+        padding: 0px;
+        box-shadow: none;
+        background-color: transparent;
+    }
+
+    .password-auth-verified-loader {
+        top: 0px;
+    }
+
+    .password-auth-verified-login-form {
+        padding: 30px;
+    }
+
+    .password-auth-verified-links {
+        left: 0px;
+        bottom: 0px;
+        padding-left: 6px;
+        justify-content: flex-start;
+    }
+}
